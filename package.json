@@ -1,0 +1,44 @@
+{
+  "name": "gulp-simple-boilerplate",
+  "version": "1.0.0",
+  "description": "Simple gulp frontend boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whoisvlad/gulp-simple-boilerplate.git"
+  },
+  "keywords": [
+    "gulp",
+    "scss",
+    "javascript",
+    "babel"
+  ],
+  "author": "Vladyslav Panchenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/whoisvlad/gulp-simple-boilerplate/issues"
+  },
+  "homepage": "https://github.com/whoisvlad/gulp-simple-boilerplate#readme",
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.13.1"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
+}
